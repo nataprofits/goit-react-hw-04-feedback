@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Component } from "react";
 import FeedBackOptions from "components/FeedbackOptions/FeedBackOptions";
 import Section from "components/Section/Section";
 import { Statistics } from "components/Statistics/Statistics";
@@ -35,7 +35,7 @@ export class App extends Component {
     const countPositiveFeedbackProcentage = this.countPositiveFeedbackProcentage();
     const optionsForFeedback = Object.keys(this.state);
       return (
-    <div>
+    <div className="container">
       <Section title="Please leave feedback">
         <FeedBackOptions
         options = {optionsForFeedback}
