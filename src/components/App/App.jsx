@@ -1,4 +1,4 @@
-import { Component } from "react";
+import { useState } from "react";
 import FeedBackOptions from "components/FeedbackOptions/FeedBackOptions";
 import Section from "components/Section/Section";
 import { Statistics } from "components/Statistics/Statistics";
