@@ -22,5 +22,5 @@ export const Title = styled.p`
 `;
 
 export const Stat = styled.p`
-margin-left: auto;
-  margin-right: auto;`;
+text-align: center;
+width: 100px;`;
